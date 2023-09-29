@@ -76,8 +76,8 @@ ResourcePref resources[] = {
 		#endif // CAPSCOLOR_PATCH
 		#if PAMAUTH_PATCH
 		{ "pamauth",      STRING,  &colorname[PAM] },
-		#endif // PAMAUTH_PATCH
 		#if MESSAGE_PATCH || COLOR_MESSAGE_PATCH
+#endif // PAMAUTH_PATCH
 		{ "message",      STRING,  &message },
 		{ "text_color",   STRING,  &text_color },
 		{ "font_name",    STRING,  &font_name },
